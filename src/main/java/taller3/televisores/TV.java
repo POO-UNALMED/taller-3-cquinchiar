@@ -11,6 +11,7 @@ public class TV {
 	public TV (Marca marca,boolean estado) {
 		setMarca(marca);
 		setEstado(estado);
+		setNumTV(getNumTV() + 1);
 	}
 	public void setMarca (Marca marca) {
 		this.marca=marca;
